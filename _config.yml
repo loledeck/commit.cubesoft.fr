@@ -39,7 +39,7 @@ improve_content: https://github.com/loledeck/commit.cubesoft.fr/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://loledeck.github.io/commit.cubesoft.fr/images/'
+urlimg: 'https://loledeck.github.io/commit.cubesoft.fr/assets/img/'
 # urlimg: '/images/'
 
 
