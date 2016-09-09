@@ -133,6 +133,12 @@
 
           
           
+        
+
+              
+
+          
+          
             
             
               <li class="divider"></li>
@@ -184,6 +190,21 @@
 
             
             
+              <li><a href="http://localhost:4000/documentation/">Documentation</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
               <li><a href="http://localhost:4000/faq/">FAQ</a></li>
               <li class="divider"></li>
 
@@ -213,7 +234,7 @@
 
 	
 
-<div id="masthead-no-image-header">
+<div id="masthead">
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="http://localhost:4000" title="Commit DB – A Modern MySQL Client for iOS">
@@ -222,6 +243,8 @@
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
+
+
 
 
 
@@ -262,7 +285,7 @@ if you can’t find it, <a href="/contact/">ask about it</a>.</p>
 <script language="Javascript" type="text/javascript">
 	function google_search() {
 		var query = document.getElementById("google-search").value;
-		window.open("https://www.google.com/search?q=" + query + "+site:" + "http%3A%2F%2Flocalhost%3A4000%2F");
+		window.open("https://www.google.com/search?q=" + query + "+site:http://commit.cubesoft.fr");
 	}
 </script>
 
@@ -396,6 +419,11 @@ if you can’t find it, <a href="/contact/">ask about it</a>.</p>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 -->
 
+
+<script>
+    $("#masthead").backstretch("http://localhost:4000/assets/img/header-server-farm.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("http://localhost:4000/assets/img/header-server-farm.jpg", {fade: 700});
+</script>
 
 
 

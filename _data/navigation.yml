@@ -2,6 +2,10 @@
   url: "/"
   side: left
 
+- title: Documentation
+  url: "/documentation/"
+  side: left
+
 - title: FAQ
   url: "/faq/"
   side: left

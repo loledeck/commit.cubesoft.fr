@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Commit DB</title>
-	<updated>2016-09-07T16:33:05+02:00</updated>
+	<updated>2016-09-09T15:41:16+02:00</updated>
 
 	<subtitle>»Commit DB« is designed from the ground up for the MySQL developers and DBAs. Connect to your servers on the road to develop new code or to check your data.</subtitle>
 

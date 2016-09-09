@@ -1,11 +1,10 @@
 ---
 layout: page-fullwidth
-title: "Theme Documentation"
-subheadline: "How to use Feeling Responsive"
+title: "Commit DB Documentation"
 teaser: "The documentation is a work in progress..."
 permalink: "/documentation/"
 header:
-   image_fullwidth: "header_roadmap_2.jpg"
+  image_fullwidth: header-server-farm.jpg
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -22,305 +21,201 @@ header:
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve_content.html %}
 
-## Different Page/Posts Formats   {#formats}
+## Connect to your databases 
 
-*Feeling Responsive* supports you with different templates for your content. These are the actual page/post formats:
+*Commit DB* allows two distinct types of connection:
 
-### Page/Post
-The [page/post format]({{ site.url }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
+### MySQL Direct connection
+<!-- The [page/post format]({{ site.url }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
 
 use in front matter via: `layout: page`
+ -->
 
-### Page/Post with a left or right sidebar
-If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar`.
+<img class="t20" src="{{ site.urlimg }}docs/login-form-simple.png" alt="Login form">
 
+- *Host* is either the IP address (V4 or V6) of your MySQL server or its fully qualified domain name (ie: server01.mycompany.com)
+- *User* is your MySQL user
+- *Password* is your MySQL user's password
+- *Database* is the database you want to connect directly after the connection. This setting is optional and the database can be changed at anytime without reconnecting
+- *Port* is your MySQL server's port
+- *Socket* should be filled only if your MySQL server is using a socket
+- *Favorite* allows you to have this connection appearing at the top of your saved connections. If the connection is not saved this setting does not do anything
 
-### Page/Post with or without metadata
-If you want to show metadata like categories, tags and date at the end of the page, just enter `show_meta: true`. It's on by default. You can change it via `_config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_meta: false`.
+If you want to save this connection you should then tap the *"Save connection"* button. This will put this connection in your saved connections list.
 
+Then just tap the *"Connect"* button.
 
 
-### Page Full Width
-If you want full control of styling a page, then use the [page fullwidth template]({{ site.url }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+### MySQL Connection through a SSH tunnel
 
-use in front matter via: `layout: page-fullwidth`
+- *Host* should be 127.0.0.1
+- *Ssh Host* is the IP address or FQDN of the SSH server you're trying to connect through
+- *Ssh User* is the username of the SSH server you're trying to connect through
+- *Ssh Password* is the password of the SSH user
+- *Ssh Port* is the port of the SSH server
 
+All other settings and interactions are the same as in a direct connection scenario.
 
-### Frontpage
-This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}) of this website.
 
-use in front matter via: `layout: frontpage`
+### Saved connections
 
+Typing connection information on a handled device is tiresome. To ensure that you do it the least possible amount of time, we included a *Saved Connections* feature.
 
-### Video
-If you're a video producer or cineast, you'll like the [video template]({{ site.url }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
+#### Creating a new saved connection
 
-use in front matter via: `layout: video`
+Each time you tap the *"Save Connection"* button the currently defined connection is saved in the list with a label in the form of:
 
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
+    mysql_user@mysql_host/mysql_database
 
+If your connection uses a SSH tunnel, its description will be prepended by "(SSH) ":
 
+    (SSH) mysql_user@mysql_host/mysql_database
 
+The list of saved connections is accessible from the *"Servers"* button at the top left of the screen (or by putting your device in landscape)
 
-## Style your content with   {#styling}
+<img class="t10 b20" src="{{ site.urlimg }}docs/saved-connections.png" alt="Saved connections dialog">
 
-Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subheadlines, feature images, header images, homepage images, meta data like categories and tags and many more.
+#### Deleting an existing saved connection
 
+To delete an existing saved connection, just swipe right on it in the list and confirm by tapping the *"Delete"* button.
 
-### subheadlines
+<img class="t10 b20" src="{{ site.urlimg }}docs/delete-connection.png" alt="Deleting saved connection">
 
-If you need a subheadline for an article, just define a subheadline in front matter like this:
+#### Clearing the connection form
 
-`subheadline:  "Subheadline"`
+To clear the connection form of all its current values, tap the *"Quick Connect"* entry in the *"Saved Connections"* list.
 
-### Quotes
 
-Quotes mix it up a little bit, if you write long articles. So use quotes:
+## Settings
 
-> Age is an issue of mind over matter. If you don't mind, it doesn't matter.
-<cite>Mark Twain</cite>
+### Security settings
 
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
+#### Use "Touch ID"
 
+This setting will allow you to protect the access of the app with a touch ID prompt. Of course, this feature will only works if Touch ID is already activated and configured on your device.
 
-## Comments
+<img class="t10 b15" src="{{ site.urlimg }}docs/touch-id-prompt.png" alt="Touch ID prompt">
 
-You can use comments with *Feeling Responsive* by the way of Disqus. If you want to use Disqus-Comments just open `config.yml` and add your `disqus_shortname`. [More on how to use Disqus ›](https://disqus.com/websites/)
+If the authentification fail, you will have to either wait for the app to become inactive or to kill it with the task manager to try again.
 
-By default comments are turned off. You can customize the default behaviour in `config.yml`. To **turn on comments** just add `comments: true` to front matter using the page layout `layout: page`. 
+### Performance settings
 
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
+#### Retrieve full dataset
 
+If this setting is turned to "ON" the app will fetch all the rows of any query it executes. The default behaviour is to only fetch the number of rows specified in the *"Rows in Dataset"* setting.
 
+{% include alert warning='Turning this setting on may severely affect performances' %} 
 
+#### Rows in Dataset
 
-## Responsive Videos
+It's the number of rows that are retrieved by the app by default. No effect if the *"Retrive full dataset"* setting is set to "ON".
 
-With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
 
-<div class="flex-video">
-        <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
-</div>
+## SQL Editor
 
-### Code to use for flexible videos
 
-{% highlight html %}
-<div class="flex-video">
-  <iframe with video />
-</div>
-{% endhighlight %}
+### Database selector
 
+The database selector let's you choose the database you're working on. Just roll your finger on the list to change the current database.
 
-<img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg" alt="">
+<img class="t10 b15" src="{{ site.urlimg }}docs/db-selector.png" alt="Database selector">
 
-## Images: Title, Thumbnails, Homepage   {#images}
 
-There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}/headers/). 
+### Db objects browser
 
+The *"Db objects browser"* let you view the names of the following objects present in your database:
+- Tables
+- Views
+- Fields
+- Indexes
+- Constraints
 
-### Title Images
+<img class="t10 b15" src="{{ site.urlimg }}docs/db-objects-browser.png" alt="DB objects browser">
 
-~~~
-image:
-    title: image.jpg
-~~~
+You can filter the objects presented by searching their name with the help of the *"search"* field at the top.
 
+Tapping on an object of the list will insert its name in the code editor at the current insertion point. This is intended to speed up the typing of your queries in the editor.
 
-### Thumbnails
 
-Thumbnails are used on archive pages like the [blog index][2]. They have a size of 150x150 pixels. Define them in front matter like this:
+### Code editor
 
-~~~
-image:
-    thumb: thumbnail_image.jpg
-~~~
+The *"Code Editor"* let's you type and execute your queries. To start typing, just tap the "Tap to enter query" message. 
 
+You can have as many queries as you like in the editor at the same time. You don't need to end them by a semi-column (";") to separate your different queries. You only need to have at least one blank line between them.
 
-### Homepage Image
+Once your query has been executed, your results will be displayed in a table view just beneath the code editor. You can swipe up/down and left/right on the table view to scroll the results.
 
-If you want to feature an article on the homepage with a huge image, then use the homepage image with a width of 970 pixels. If no homepage image is defined *Feeling Responsive* writes instead *New Blog Articles* over the blog entries. Define the homepage image like this:
+If you have not modified the *"Retrieve full dataset"* setting you may have only a subset of the full resultset in the table view. If you want to see the full resultset you have to use the *"Show all results"* button.
 
-~~~
-image:
-    homepage: header_homepage_13.jpg
-~~~
+You can sort the resulset by tapping the column name. On first tap, the dataset is sorted in an ascending order. On the second tap, the dataset is sorted in a descending order.
 
 
+### Actions
 
-### Captions with URL
+#### Start transaction
 
-Sometimes you want to give credit to the creator of your images, maybe with a link. Especially when you use Creative Commons-images like I do for this website. Just add the following front matter and *Feeling Responsive* does the rest:
+<img class="t10 b15" src="{{ site.urlimg }}docs/start-transaction.png" alt="Start transaction">
 
-~~~
-image:
-    title: header_image.jpg
-    caption: Image by Phlow
-    caption_url: "http://phlow.de/"
-~~~
+By tapping the *"Start transaction"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/start-transaction-button.png" alt="Start transaction button">&nbsp;&nbsp;  you will be offered the choice of the type of transaction you wish to start. Once you have selected a type of transaction, the *"Start transaction"* button will be replaced by a *"Commit"* &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/commit-button.png" alt="Start transaction button">&nbsp;&nbsp; and a *"Rollback"* &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/rollback-button.png" alt="Start transaction button">&nbsp;&nbsp; buttons.
 
-### Define all images for an article
+#### Import code
 
-~~~
-image:
-    title: title_image.jpg
-    thumb: thumbnail_image.jpg
-    homepage: header_homepage_13.jpg
-    caption: Image by Phlow
-    caption_url: "http://phlow.de/"
-~~~
+The *"Import code"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/import-code-button.png" alt="Import code button">&nbsp;&nbsp; will let you import a text file from any storage provider app installed on your device (iCloud, Dropbox, OneDrive, Google Drive ... etc.). 
 
+#### Export file
 
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
+The *"Export file"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/export-file-button.png" alt="Export file button">&nbsp;&nbsp; will let you choose between three different actions:
 
+<img src="{{ site.urlimg }}docs/export-dialog.png" alt="Export file dialog">
 
-## Create a Table of Contents
-{: .t60}
+- *"Dataset"* : to export a csv file of the current resultset present in the table view
+- *"Export SQL script"* : to export the queries present in the code editor to any storage provider (iCloud, Dropbox, OneDrive, Google Drive ... etc.) present on your device
+- *"Share SQL script"* : to open the iOS standard share sheet to share the queries present in the code editor
 
-With the Kramdown parser for Markdown you can render a table of contents for your documents. Just insert the following HTML in your post before the actual content. More information on [»Automatic ›Table of Contents‹ Generation«][1].
+#### Clear code editor
 
-### Bare Bones Version
-{% highlight html %}
-### Table of Contents
-*  Auto generated table of contents
-{:toc}
-{% endhighlight %}
+The *"Clear editor"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/clear-editor-button.png" alt="Clear editor button">&nbsp;&nbsp; will remove all the queries currently in the code editor.
 
-### Foundation panel version
+#### Hide / show DB objects
 
-{% highlight html %}
-<div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-</div>
-{% endhighlight %}
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
+The *"Hide DB objects"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/hide-db-objects-button.png" alt="Hide DB objects button">&nbsp;&nbsp; will hide the DB objects browser from view. The *"Show DB objects"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/show-db-objects-button.png" alt="Show DB objects button">&nbsp;&nbsp; will restore it into view. 
 
-## Breadcrumbs
 
-To turn on breadcrumbs, just use...
+#### Hide results
 
-{% highlight html %}
-breadcrumb: true
-{% endhighlight %}
+The *"Hide results"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/hide-results-button.png" alt="Hide results button">&nbsp;&nbsp; will hide the current resultset to leave a maximum of screen space to the code editor.
 
 
-## Includes
-{: .t60}
+#### Show all results
 
-Includes can be very helpful to spice up your content. You can use includes in your Markdown-files with ease: Just call them with some Liquid code.
+The *"Show all results"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/show-all-results-button.png" alt="Show all results button">&nbsp;&nbsp; will transition you to a paginated view of all the rows in your current resultset.
 
-### list-posts.html
+#### Run query
 
-The `list-posts.html`-include is a loop to list posts. It's a helper to add some additional content fast and easy. You can use it in individual posts for example. Which parameters you use, depends on you.
+The *"Run query"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/run-query-button.png" alt="Run query button">&nbsp;&nbsp; will execute the currently selected query.
 
-Possible parameter for the loop:
+### Keyboard shortcuts
 
-- entries › define the number of entries to show
-- offset › define the offset (number of entries to skip before displaying the first one)
-- category › define **only one** category to display according entries
+- ⌘ + R : run the current query
+- ⌘ + N : clear the code editor
+- ⌘ + G : show full resultset
+- ⇧ + ⌘ + N : start a new transaction
 
-The loop looks like this when you use all parameters. Single parameters are possible of course.
 
-~~~
-{% raw %}{% include list-posts entries='3' offset='1' category='design' %}{% endraw %}
-~~~
 
-### next-previous-post-in-category.html
+<!-- 
+## Disconnect your current session
 
-This include creates a next/previous link to a post of the same category using the first categories-variable in front matter.
+When you have an active connection, this connection will be materialized by a green icon in the list
+ -->
 
-~~~
-{% raw %} {% include next-previous-post-in-category %}{% endraw %}
-~~~
 
 
-### improve_content
 
-If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](http://ben.balter.com/).
-
-~~~
-{% raw %}{% include _improve_content.html %}{% endraw %}
-~~~
-
-
-### list-collection
-
-This include lets you loop through a collection to list all entries in that collection. If you set »published: false« in front matter of a collection page the page gots filtered out via unless. The following example loops through a collection called *wordpress*.
-
-~~~
-{% raw %}{% include list-collection collection='wordpress' %}{% endraw %}
-~~~
-
-
-### alert – Embed an alert in your content
-
-This include lets you easily display an alert. To use the include no `.html` ending is necessary. You can use five different kinds of alerts: `warning`, `info`, `success`, `alert` and `text`. 
-
-~~~
-{% raw %}{% include alert warning='This is a warning.' %}
-{% include alert info='An info box.' %}
-{% include alert success='Yeah, you made it!' %}
-{% include alert alert='Danger!' %}
-{% include alert terminal='jekyll -serve' %}
-{% include alert text='Just a note!' %}{% endraw %}
-~~~
-
-{% include alert warning='This is a warning.' %}
-{% include alert info='An info box.' %}
-{% include alert success='Yeah, you made it!' %}
-{% include alert alert='Danger!' %}
-{% include alert terminal='jekyll -serve' %}
-{% include alert text='Just a note!' %}
-
-You can even use `<html>`-tags inside the alert. Beware: Use " and ' properly.
-
-~~~
-{% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}{% endraw %}
-~~~
-
-{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}
-
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-
-
-## Javascript/Foundation modules
-
-*Feeling Responsive* uses the foundation framework and some of its javascript components. I reduced the modules, to decrease page load and make the theme faster.
-
-I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. These modules are currently used by the theme and included in `javascript.min.js`. There is also a non-minified version, if you want to take a closer look: `javascript.js`.
-
-~~~
-/foundation/bower_components/foundation/js/vendor/jquery.js'
-/foundation/bower_components/foundation/js/vendor/fastclick.js'
-/foundation/bower_components/foundation/js/foundation.accordion.js'
-/foundation/bower_components/foundation/js/foundation.clearing.js'
-/foundation/bower_components/foundation/js/foundation.dropdown.js'
-/foundation/bower_components/foundation/js/foundation.equalizer.js'
-/foundation/bower_components/foundation/js/foundation.magellan.js'
-/foundation/bower_components/foundation/js/foundation.topbar.js'
-/foundation/js/jquery.backstretch.js'
-~~~
 
 {% include _improve_content.html %}
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
- [1]: http://kramdown.gettalong.org/converter/html.html#toc
- [2]: {{ site.url }}/blog/
- [3]: http://srobbin.com/jquery-plugins/backstretch/
- [4]: #
- [5]: #
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
+
