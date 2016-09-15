@@ -11,8 +11,8 @@
 	<!-- Add the slick-theme.css if you want default styling -->
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 
-	<script src="https://use.fontawesome.com/470633a66e.js"></script>
-
+<!-- 	<script src="https://use.fontawesome.com/470633a66e.js"></script> -->
+	<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
 	<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
@@ -316,6 +316,18 @@
       <li><a href="#keyboard-shortcuts" id="markdown-toc-keyboard-shortcuts">Keyboard shortcuts</a></li>
     </ul>
   </li>
+  <li><a href="#db-browser-tab" id="markdown-toc-db-browser-tab">DB Browser tab</a>    <ul>
+      <li><a href="#db-objects-browser-1" id="markdown-toc-db-objects-browser-1">DB Objects browser</a></li>
+      <li><a href="#data-grid" id="markdown-toc-data-grid">Data Grid</a></li>
+      <li><a href="#edit-mode" id="markdown-toc-edit-mode">Edit Mode</a></li>
+      <li><a href="#actions-1" id="markdown-toc-actions-1">Actions</a>        <ul>
+          <li><a href="#refresh-data" id="markdown-toc-refresh-data">Refresh data</a></li>
+          <li><a href="#export-data" id="markdown-toc-export-data">Export data</a></li>
+          <li><a href="#hide--show-db-objects-1" id="markdown-toc-hide--show-db-objects-1">Hide / show DB objects</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
     </div>
@@ -439,6 +451,8 @@ use in front matter via: `layout: page`
 
     <p><img class="t10 b15" src="http://localhost:4000/assets/img/docs/db-selector.png" alt="Database selector" /></p>
 
+    <p><a name="db-object-browser-1"></a></p>
+
     <h3 id="db-objects-browser">Db objects browser</h3>
 
     <p>The <em>“Db objects browser”</em> let you view the names of the following objects present in your database:
@@ -518,6 +532,65 @@ use in front matter via: `layout: page`
       <li>⌘ + G : show full resultset</li>
       <li>⇧ + ⌘ + N : start a new transaction</li>
     </ul>
+
+    <h2 id="db-browser-tab">DB Browser tab</h2>
+
+    <p>The <em>“DB Browser”</em> let you see and inspect all the objects in your database.</p>
+
+    <h3 id="db-objects-browser-1">DB Objects browser</h3>
+
+    <p><img src="http://localhost:4000/assets/img/docs/db-objects-browser-2.png" alt="DB Objects browser" /></p>
+
+    <p>The <em>“DB Objects browser”</em> works mostly like the <a href="#db-object-browser-1">SQL editor</a> one’s. But you can here choose the typez of objects you’re interrested in inspecting:</p>
+
+    <ul>
+      <li><em>“Ta”</em> : Tables</li>
+      <li><em>“V”</em> : Views</li>
+      <li><em>“R”</em> : Routines (functions and stored procedures)</li>
+      <li><em>“Tr”</em> : Triggers</li>
+      <li><em>“I”</em> : Indexes and constraints</li>
+    </ul>
+
+    <p>Selecting one of the item in the list will load its information in the data grid.</p>
+
+    <h3 id="data-grid">Data Grid</h3>
+
+    <p><img src="http://localhost:4000/assets/img/docs/data-grid.png" alt="Data grid" /></p>
+
+    <p>The data grid has the following subtabs :</p>
+
+    <ul>
+      <li><em>“Columns”</em> : let you see the columns of a table / view, the parameters of a routine, the event on which occurs a trigger or the columns of an index / constraint</li>
+      <li><em>“Indexes”</em> : list the indexes of a table</li>
+      <li><em>“Constraints”</em> : list the constraints of a table</li>
+      <li><em>“Triggers”</em> : list the triggers of a table</li>
+      <li><em>“Data”</em> : show the data of a table / view, just as a <em>“select * from table_name”</em> would</li>
+      <li><em>“Grants”</em> : show the grants of a table</li>
+      <li><em>“Stats”</em> : show the stats of a table</li>
+      <li><em>“Script”</em> : show thez creation script of any object</li>
+    </ul>
+
+    <h3 id="edit-mode">Edit Mode</h3>
+
+    <p>Turning the <em>“Edit Mode”</em> ON will allow you to drop objects or to modify data from tables.</p>
+
+    <p>To drop a linked object, you just have to tap its line in the data view. A dialog will ask you confirmation before proceding.</p>
+
+    <p>To delete a line of data, you have to tap the line number on the left of the to get the confirmation dialog. If you tap a data cell, you will be taken to a detail view of the cell where you can change its value (only if <em>“Edit Mode”</em> is ON).</p>
+
+    <h3 id="actions-1">Actions</h3>
+
+    <h4 id="refresh-data">Refresh data</h4>
+
+    <p>Tapping the <em>“Refresh”</em> button   <img src="http://localhost:4000/assets/img/docs/refresh-button.png" alt="Run query button" />   will refresh the current pane of the data view.</p>
+
+    <h4 id="export-data">Export data</h4>
+
+    <p>The <em>“Export”</em> button   <img src="http://localhost:4000/assets/img/docs/export-file-button.png" alt="Export button" />   will let you export a csv file of the current pane of the data view.</p>
+
+    <h4 id="hide--show-db-objects-1">Hide / show DB objects</h4>
+
+    <p>The <em>“Hide DB objects”</em> button   <img src="http://localhost:4000/assets/img/docs/hide-db-objects-button.png" alt="Hide DB objects button" />   will hide the DB objects browser from view. The <em>“Show DB objects”</em> button   <img src="http://localhost:4000/assets/img/docs/show-db-objects-button.png" alt="Show DB objects button" />   will restore it into view.</p>
 
     <!-- 
 ## Disconnect your current session

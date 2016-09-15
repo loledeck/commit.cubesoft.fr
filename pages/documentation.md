@@ -121,7 +121,10 @@ The database selector let's you choose the database you're working on. Just roll
 <img class="t10 b15" src="{{ site.urlimg }}docs/db-selector.png" alt="Database selector">
 
 
+<a name="db-object-browser-1"></a>
+
 ### Db objects browser
+
 
 The *"Db objects browser"* let you view the names of the following objects present in your database:
 - Tables
@@ -201,7 +204,63 @@ The *"Run query"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/run-query-b
 - ⌘ + G : show full resultset
 - ⇧ + ⌘ + N : start a new transaction
 
+## DB Browser tab
 
+The *"DB Browser"* let you see and inspect all the objects in your database.
+
+
+### DB Objects browser ###
+
+
+<img src="{{ site.urlimg }}docs/db-objects-browser-2.png" alt="DB Objects browser">
+
+The *"DB Objects browser"* works mostly like the [SQL editor](#db-object-browser-1) one's. But you can here choose the typez of objects you're interrested in inspecting:
+
+- *"Ta"* : Tables
+- *"V"* : Views
+- *"R"* : Routines (functions and stored procedures)
+- *"Tr"* : Triggers
+- *"I"* : Indexes and constraints
+
+Selecting one of the item in the list will load its information in the data grid.
+
+
+### Data Grid
+
+<img src="{{ site.urlimg }}docs/data-grid.png" alt="Data grid">
+
+The data grid has the following subtabs :
+
+- *"Columns"* : let you see the columns of a table / view, the parameters of a routine, the event on which occurs a trigger or the columns of an index / constraint
+- *"Indexes"* : list the indexes of a table
+- *"Constraints"* : list the constraints of a table
+- *"Triggers"* : list the triggers of a table
+- *"Data"* : show the data of a table / view, just as a *"select * from table_name"* would
+- *"Grants"* : show the grants of a table
+- *"Stats"* : show the stats of a table
+- *"Script"* : show thez creation script of any object
+
+### Edit Mode
+
+Turning the *"Edit Mode"* ON will allow you to drop objects or to modify data from tables.
+
+To drop a linked object, you just have to tap its line in the data view. A dialog will ask you confirmation before proceding.
+
+To delete a line of data, you have to tap the line number on the left of the to get the confirmation dialog. If you tap a data cell, you will be taken to a detail view of the cell where you can change its value (only if *"Edit Mode"* is ON).
+
+### Actions
+
+#### Refresh data
+
+Tapping the *"Refresh"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/refresh-button.png" alt="Run query button">&nbsp;&nbsp; will refresh the current pane of the data view.
+
+#### Export data
+
+The *"Export"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/export-file-button.png" alt="Export button">&nbsp;&nbsp; will let you export a csv file of the current pane of the data view.
+
+#### Hide / show DB objects
+
+The *"Hide DB objects"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/hide-db-objects-button.png" alt="Hide DB objects button">&nbsp;&nbsp; will hide the DB objects browser from view. The *"Show DB objects"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/show-db-objects-button.png" alt="Show DB objects button">&nbsp;&nbsp; will restore it into view. 
 
 <!-- 
 ## Disconnect your current session
