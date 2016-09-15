@@ -66,7 +66,7 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 
 <ul class="fa-ul">
 	<li>
-		<i class="fa fa-code fa-li fa-3x" aria-hidden="true" style="color:blue"></i>
+		<i class="fa fa-code fa-li fa-4x" aria-hidden="true" style="color:blue"></i>
 		<ul class="square">
 			<li class="feature"><strong>Powerful SQL prompt</strong> / editor to write your code and execute your queries</li>
 			<li class="feature">SQL syntax highlighting</li>
@@ -75,7 +75,7 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 		<hr>
 	</li>
 	<li>
-		<i class="fa fa-braille fa-li fa-3x" aria-hidden="true" style="color:green"></i>
+		<i class="fa fa-braille fa-li fa-4x" aria-hidden="true" style="color:green"></i>
 		<ul class="square">
 			<li class="feature"><strong>Optimized for iPad multitasking</strong></li>
 			<li class="feature">Keyboard shortcuts for easier usage with a hardware keyboard</li>
@@ -84,7 +84,7 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 		<hr>
 	</li>
 	<li>
-		<i class="fa fa-exchange fa-li fa-3x" aria-hidden="true" style="color:orange"></i>
+		<i class="fa fa-exchange fa-li fa-4x" aria-hidden="true" style="color:orange"></i>
 		<ul class="square">
 			<li class="feature"><strong>Synchronize your connections</strong> between devices with iCloud</li>
 			<li class="feature">Import files from any iOS document provider extension (Dropbox, One Drive, Google Drive …)</li>
@@ -94,7 +94,7 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 		<hr>
 	</li>
 	<li>
-		<i class="fa fa-lock fa-li fa-3x" aria-hidden="true" style="color:red"></i>
+		<i class="fa fa-lock fa-li fa-4x" aria-hidden="true" style="color:red"></i>
 		<ul class="square">
 			<li class="feature">Connect to your databases directly or through a SSH tunnel</li>
 			<li class="feature">Protect access to the app with TouchID</li>
