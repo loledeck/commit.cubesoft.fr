@@ -32,7 +32,7 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 
 
 <p class="text-center">
-	<a href="https://itunes.apple.com/us/app/commit-db-modern-mysql-client/id1128425956?ls=1&mt=8">
+	<a href="https://itunes.apple.com/app/apple-store/id1128425956?pt=485856&ct=Site%20commit%20db&mt=8">
 		<img src="{{ site.urlimg }}app-store-download.svg" class="app-store-badge">
 	</a>
 </p>

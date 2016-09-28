@@ -1,0 +1,260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 9361,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/laurent/Repositories/commit.cubesoft.fr"
+	],
+	"file_history":
+	[
+		"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2/index.html",
+		"/Users/laurent/Repositories/thedeck.fr/_posts/2013-12-21-more-info-on-librairie.md",
+		"/Users/laurent/Library/Mobile Documents/com~apple~CloudDocs/Commit/upd_bs.sql",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSLibraryDocumentPickerViewController.m",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/AppDelegate.m",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSEbookDetailsViewController.m",
+		"/Users/laurent/Library/Mobile Documents/com~apple~CloudDocs/Commit/sakila.sql",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/Tracking.m",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSLibraryCollectionViewController.m",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/AppDelegate.h",
+		"/Users/laurent/Downloads/world.sql",
+		"/Users/laurent/Downloads/DB5-master/Demo/DB5Demo/DB5AppDelegate.m",
+		"/Users/laurent/Downloads/DB5-master/Demo/DB5Demo/DB5.plist",
+		"/Users/laurent/Downloads/DB5-master/VSTheme/VSTheme.h",
+		"/Users/laurent/Downloads/DB5-master/VSTheme/VSThemeLoader.m",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSExperimentalReaderViewController.m",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSCommonLibraryViewController.m",
+		"/Users/laurent/Dropbox/Code/sqlfiles/test.sql",
+		"/Users/laurent/change_pwd.sql"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2",
+			"/Users/laurent/Repositories/librairie/objective-c-2",
+			"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"baseurl",
+			"jekyll-theme-libretto",
+			"api_url_prefix",
+			"launchkit",
+			"uidlOverRidden",
+			"world",
+			"LaunchKit",
+			"Wall",
+			"process",
+			"thread",
+			"UIPopoverPresentationController",
+			"uialertcontroller",
+			"UIActivityViewController",
+			"utiForMimeType",
+			"shareEbook",
+			"showImportDialog",
+			"downloadImage",
+			"project"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"commit_sakila"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 9361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1503,
+								1548
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "commit-sebsite.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
