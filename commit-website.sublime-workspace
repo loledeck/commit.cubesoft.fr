@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 9361,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -46,12 +38,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/laurent/Repositories/commit.cubesoft.fr"
-	],
 	"file_history":
 	[
+		"/Users/laurent/Dropbox/Users/cubesoft/Projets/Commit/screenshots/Framefile.json",
+		"/Users/laurent/Dropbox/Users/cubesoft/Projets/Commit/screenshots/en-US/title.strings",
 		"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2/index.html",
 		"/Users/laurent/Repositories/thedeck.fr/_posts/2013-12-21-more-info-on-librairie.md",
 		"/Users/laurent/Library/Mobile Documents/com~apple~CloudDocs/Commit/upd_bs.sql",
@@ -81,6 +71,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/laurent/Repositories/Commit/Commit",
+			"/Users/laurent/Repositories/Commit",
+			"/Users/laurent/Repositories/Commit/Commit",
 			"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2",
 			"/Users/laurent/Repositories/librairie/objective-c-2",
 			"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie"
@@ -91,6 +84,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"9e0d6d",
+			"orientation",
+			"constant",
+			"ipad",
+			"AppDelegate",
 			"baseurl",
 			"jekyll-theme-libretto",
 			"api_url_prefix",
@@ -132,39 +130,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_config.yml",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 9361,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1503,
-								1548
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

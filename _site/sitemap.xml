@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 27 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 26 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/404.html</loc>
+	<loc>http://localhost:4000/404.html</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,26 +20,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/blog/archive/</loc>
+	<loc>http://localhost:4000/blog/archive/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/atom.xml</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -54,9 +37,26 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/changelog/</loc>
+	<loc>http://localhost:4000/atom.xml</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/changelog/</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -69,24 +69,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/contact/</loc>
+	<loc>http://localhost:4000/contact/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -99,24 +84,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/documentation/</loc>
+	<loc>http://localhost:4000/design/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/feed.xml</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -129,24 +99,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/getting-started/</loc>
+	<loc>http://localhost:4000/documentation/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/headers/</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -159,24 +114,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/humans.txt</loc>
+	<loc>http://localhost:4000/feed.xml</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/blog/</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -189,24 +129,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/</loc>
+	<loc>http://localhost:4000/getting-started/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/info/</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -219,24 +144,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/redirect-page/</loc>
+	<loc>http://localhost:4000/headers/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/roadmap/</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -249,9 +159,84 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/robots.txt</loc>
+	<loc>http://localhost:4000/humans.txt</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/redirect-page/</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/roadmap/</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/robots.txt</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -268,41 +253,9 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/search/</loc>
+	<loc>http://localhost:4000/search/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/sitemap.xml</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/blog/page2/</loc>
-	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -315,9 +268,26 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/blog/page3/</loc>
+	<loc>http://localhost:4000/sitemap.xml</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page2/</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -330,9 +300,24 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/blog/page4/</loc>
+	<loc>http://localhost:4000/blog/page3/</loc>
 	
-		<lastmod>2016-09-28T11:21:12+02:00</lastmod>
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page4/</loc>
+	
+		<lastmod>2016-11-03T11:56:46+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -348,7 +333,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/jekyll/update/welcome-to-jekyll/</loc>
+	<loc>http://localhost:4000/jekyll/update/welcome-to-jekyll/</loc>
 	
 		<lastmod>2016-07-23T11:50:35+02:00</lastmod>
 	
@@ -363,7 +348,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/mediaelement_js/</loc>
+	<loc>http://localhost:4000/design/mediaelement_js/</loc>
 	
 		<lastmod>2015-10-15T00:00:00+02:00</lastmod>
 	
@@ -378,7 +363,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/typography/typography/</loc>
+	<loc>http://localhost:4000/design/typography/typography/</loc>
 	
 		<lastmod>2015-08-16T00:00:00+02:00</lastmod>
 	
@@ -393,7 +378,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/comments/</loc>
+	<loc>http://localhost:4000/design/comments/</loc>
 	
 		<lastmod>2015-08-15T00:00:00+02:00</lastmod>
 	
@@ -408,7 +393,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/no-header/</loc>
+	<loc>http://localhost:4000/design/no-header/</loc>
 	
 		<lastmod>2015-08-11T00:00:00+02:00</lastmod>
 	
@@ -423,7 +408,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/no-header-but-image/</loc>
+	<loc>http://localhost:4000/design/no-header-but-image/</loc>
 	
 		<lastmod>2015-03-12T00:00:00+01:00</lastmod>
 	
@@ -438,7 +423,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/header-with-text/</loc>
+	<loc>http://localhost:4000/design/header-with-text/</loc>
 	
 		<lastmod>2015-02-10T00:00:00+01:00</lastmod>
 	
@@ -453,7 +438,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/header-logo-only/</loc>
+	<loc>http://localhost:4000/design/header-logo-only/</loc>
 	
 		<lastmod>2014-10-09T00:00:00+02:00</lastmod>
 	
@@ -468,7 +453,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/header-image-color/</loc>
+	<loc>http://localhost:4000/design/header-image-color/</loc>
 	
 		<lastmod>2014-10-09T00:00:00+02:00</lastmod>
 	
@@ -483,7 +468,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/header-full-width-image/</loc>
+	<loc>http://localhost:4000/design/header-full-width-image/</loc>
 	
 		<lastmod>2014-10-09T00:00:00+02:00</lastmod>
 	
@@ -498,7 +483,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/header-image-pattern/</loc>
+	<loc>http://localhost:4000/design/header-image-pattern/</loc>
 	
 		<lastmod>2014-10-08T00:00:00+02:00</lastmod>
 	
@@ -513,7 +498,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/gallery/</loc>
+	<loc>http://localhost:4000/design/gallery/</loc>
 	
 		<lastmod>2014-09-15T00:00:00+02:00</lastmod>
 	
@@ -528,7 +513,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/video/</loc>
+	<loc>http://localhost:4000/design/video/</loc>
 	
 		<lastmod>2014-09-14T00:00:00+02:00</lastmod>
 	
@@ -543,7 +528,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/grid/</loc>
+	<loc>http://localhost:4000/design/grid/</loc>
 	
 		<lastmod>2014-09-13T00:00:00+02:00</lastmod>
 	
@@ -558,7 +543,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/portfolio/</loc>
+	<loc>http://localhost:4000/design/portfolio/</loc>
 	
 		<lastmod>2014-09-10T00:00:00+02:00</lastmod>
 	
@@ -573,7 +558,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/page-fullwidth/</loc>
+	<loc>http://localhost:4000/design/page-fullwidth/</loc>
 	
 		<lastmod>2014-08-19T00:00:00+02:00</lastmod>
 	
@@ -588,7 +573,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/post-right-sidebar/</loc>
+	<loc>http://localhost:4000/design/post-right-sidebar/</loc>
 	
 		<lastmod>2014-07-10T00:00:00+02:00</lastmod>
 	
@@ -603,7 +588,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/page/</loc>
+	<loc>http://localhost:4000/design/page/</loc>
 	
 		<lastmod>2014-07-10T00:00:00+02:00</lastmod>
 	
@@ -618,7 +603,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/breadcrumb/</loc>
+	<loc>http://localhost:4000/design/breadcrumb/</loc>
 	
 		<lastmod>2014-07-10T00:00:00+02:00</lastmod>
 	
@@ -633,7 +618,7 @@
 
 	
 	<url>
-	<loc>https://loledeck.github.io/commit.cubesoft.fr/design/post-left-sidebar/</loc>
+	<loc>http://localhost:4000/design/post-left-sidebar/</loc>
 	
 		<lastmod>2014-07-09T00:00:00+02:00</lastmod>
 	

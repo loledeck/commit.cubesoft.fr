@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "pages/pages-root-folder/index.md",
-			"settings":
-			{
-				"buffer_size": 4042,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -47,14 +38,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/laurent/Repositories/commit.cubesoft.fr",
-		"/Users/laurent/Repositories/commit.cubesoft.fr/pages",
-		"/Users/laurent/Repositories/commit.cubesoft.fr/pages/pages-root-folder"
-	],
 	"file_history":
 	[
+		"/Users/laurent/Dropbox/Users/cubesoft/Projets/Commit/screenshots/Framefile.json",
+		"/Users/laurent/Dropbox/Users/cubesoft/Projets/Commit/screenshots/en-US/title.strings",
 		"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2/index.html",
 		"/Users/laurent/Repositories/thedeck.fr/_posts/2013-12-21-more-info-on-librairie.md",
 		"/Users/laurent/Library/Mobile Documents/com~apple~CloudDocs/Commit/upd_bs.sql",
@@ -84,6 +71,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/laurent/Repositories/Commit/Commit",
+			"/Users/laurent/Repositories/Commit",
+			"/Users/laurent/Repositories/Commit/Commit",
 			"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2",
 			"/Users/laurent/Repositories/librairie/objective-c-2",
 			"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie"
@@ -94,6 +84,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"9e0d6d",
+			"orientation",
+			"constant",
+			"ipad",
+			"AppDelegate",
 			"baseurl",
 			"jekyll-theme-libretto",
 			"api_url_prefix",
@@ -135,38 +130,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "pages/pages-root-folder/index.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4042,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								989,
-								989
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 305.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -246,7 +211,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

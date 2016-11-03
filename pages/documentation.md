@@ -19,7 +19,7 @@ header:
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-{% include _improve_content.html %}
+<!-- {% include _improve_content.html %} -->
 
 ## Connect to your databases 
 
@@ -40,6 +40,7 @@ use in front matter via: `layout: page`
 - *Port* is your MySQL server's port
 - *Socket* should be filled only if your MySQL server is using a socket
 - *Favorite* allows you to have this connection appearing at the top of your saved connections. If the connection is not saved this setting does not do anything
+- *Color* allows you to choose a color to dinstinguish your connection. This color will appear on the icon in the connections list and in the top left of the screen in the [SQL Editor](#sql-editor) and [DB Browser](#db-browser-tab) panes
 
 If you want to save this connection you should then tap the *"Save connection"* button. This will put this connection in your saved connections list.
 
@@ -85,6 +86,13 @@ To delete an existing saved connection, just swipe right on it in the list and c
 
 To clear the connection form of all its current values, tap the *"Quick Connect"* entry in the *"Saved Connections"* list.
 
+### Disconnect your current session
+
+When you have an active connection, this connection will be materialized by a green line in the connections list. You can disconnect the connection by tapping it in the list.
+
+You can also disconnect your current connection by tapping the current connection button and then selecting the *"Disconnect current connection"*.
+
+<img class="t10 b20" src="{{ site.urlimg }}docs/current-connection-dialog.png" alt="Current connection dialog">
 
 ## Settings
 
@@ -171,7 +179,7 @@ The *"Export file"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/export-fi
 
 <img src="{{ site.urlimg }}docs/export-dialog.png" alt="Export file dialog">
 
-- *"Dataset"* : to export a csv file of the current resultset present in the table view
+- *"Dataset"* : to export a CSV or JSON file of the current resultset present in the table view
 - *"Export SQL script"* : to export the queries present in the code editor to any storage provider (iCloud, Dropbox, OneDrive, Google Drive ... etc.) present on your device
 - *"Share SQL script"* : to open the iOS standard share sheet to share the queries present in the code editor
 
@@ -256,23 +264,25 @@ Tapping the *"Refresh"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/refre
 
 #### Export data
 
-The *"Export"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/export-file-button.png" alt="Export button">&nbsp;&nbsp; will let you export a csv file of the current pane of the data view.
+The *"Export"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/export-file-button.png" alt="Export button">&nbsp;&nbsp; will let you export a CSV or JSON file of the current pane of the data view.
 
 #### Hide / show DB objects
 
 The *"Hide DB objects"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/hide-db-objects-button.png" alt="Hide DB objects button">&nbsp;&nbsp; will hide the DB objects browser from view. The *"Show DB objects"* button &nbsp;&nbsp;<img src="{{ site.urlimg }}docs/show-db-objects-button.png" alt="Show DB objects button">&nbsp;&nbsp; will restore it into view. 
 
-<!-- 
-## Disconnect your current session
 
-When you have an active connection, this connection will be materialized by a green icon in the list
- -->
+## Data row details
+
+You can get a detailed view of all the fields in a data row by tapping it's line number while you're in *read-only* mode.
+
+You will then see a scrollable page with one field per line.
+
+<img class="t10 b15" src="{{ site.urlimg }}docs/data-row-details.png" alt="Data row details">
 
 
 
 
-
-{% include _improve_content.html %}
+<!-- {% include _improve_content.html %} -->
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
