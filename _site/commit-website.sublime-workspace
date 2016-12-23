@@ -3,10 +3,40 @@
 	{
 		"selected_items":
 		[
+			[
+				"has",
+				"has_key"
+			],
+			[
+				"cha",
+				"chapter_def"
+			],
+			[
+				"chap",
+				"chapter_ids"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "_includes/_footer_scripts.html",
+			"settings":
+			{
+				"buffer_size": 2141,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/pages-root-folder/index.md",
+			"settings":
+			{
+				"buffer_size": 4042,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -38,19 +68,28 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/laurent/Repositories/commit.cubesoft.fr",
+		"/Users/laurent/Repositories/commit.cubesoft.fr/_includes",
+		"/Users/laurent/Repositories/commit.cubesoft.fr/pages",
+		"/Users/laurent/Repositories/commit.cubesoft.fr/pages/pages-root-folder"
+	],
 	"file_history":
 	[
-		"/Users/laurent/Dropbox/Users/cubesoft/Projets/Commit/screenshots/Framefile.json",
-		"/Users/laurent/Dropbox/Users/cubesoft/Projets/Commit/screenshots/en-US/title.strings",
-		"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2/index.html",
-		"/Users/laurent/Repositories/thedeck.fr/_posts/2013-12-21-more-info-on-librairie.md",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSLibraryCollectionViewController.m",
+		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/UIViewController+LibraryView.m",
+		"/Users/laurent/Dropbox/Users/laurent/Documents/Immobilier/Achat 2016/Contrat de prêt familial.txt",
+		"/Users/laurent/Downloads/ebooksgratuits.opdf",
+		"/Users/laurent/Repositories/librairie/librairie/main/views.py",
+		"/Users/laurent/Desktop/bad_chapter.txt",
+		"/Users/laurent/Desktop/good_chapter.txt",
 		"/Users/laurent/Library/Mobile Documents/com~apple~CloudDocs/Commit/upd_bs.sql",
 		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSLibraryDocumentPickerViewController.m",
 		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/AppDelegate.m",
 		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSEbookDetailsViewController.m",
 		"/Users/laurent/Library/Mobile Documents/com~apple~CloudDocs/Commit/sakila.sql",
 		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/Tracking.m",
-		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSLibraryCollectionViewController.m",
 		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/AppDelegate.h",
 		"/Users/laurent/Downloads/world.sql",
 		"/Users/laurent/Downloads/DB5-master/Demo/DB5Demo/DB5AppDelegate.m",
@@ -64,17 +103,15 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
-			"/Users/laurent/Repositories/Commit/Commit",
-			"/Users/laurent/Repositories/Commit",
-			"/Users/laurent/Repositories/Commit/Commit",
-			"/Users/laurent/Downloads/jekyll-theme-libretto-gh-pages-2",
+			"/Users/laurent/Repositories/librairie/objective-c-2/librairie",
+			"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie",
 			"/Users/laurent/Repositories/librairie/objective-c-2",
 			"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie"
 		]
@@ -84,13 +121,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"9e0d6d",
-			"orientation",
-			"constant",
-			"ipad",
-			"AppDelegate",
-			"baseurl",
-			"jekyll-theme-libretto",
+			">",
+			"status",
+			"logger",
+			"deltaToken",
+			"last_delta",
+			"trueCondition",
+			"extensions",
+			"ext",
+			"&token=aTE09NjM2MTMzNDI2MTEwNTM7SUQ9NkI1Q0FCNTUxOEQwRDMzNCExMDY7TFI9NjM2MTMzNTQwODM3OTA7RVA9MTM7U0k9OTg7TElEPTMwNTExO0ZEPVRydWU7QlU9VHJ1ZTtTTz0yO1BJPTM",
+			"Empathy: From Bench to Bedside (Social Neuroscience)",
+			"epub",
+			"application/octet-stream",
+			"Gendlin",
+			"Crashlytics",
+			"Crash",
+			"Crasg",
+			"askSuperUserForReview",
+			"iRate",
+			"context",
+			"full_file_path",
+			"read",
+			"ifndef",
+			"chapters",
+			"chapter_ids",
+			"authorize",
+			"kwargs",
 			"api_url_prefix",
 			"launchkit",
 			"uidlOverRidden",
@@ -130,8 +186,66 @@
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_includes/_footer_scripts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pages/pages-root-folder/index.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1616,
+								1616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 305.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -178,7 +292,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "commit-sebsite.sublime-project",
+	"project": "commit-website.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -195,12 +309,12 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -211,7 +325,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

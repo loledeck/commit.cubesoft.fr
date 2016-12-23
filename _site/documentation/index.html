@@ -298,6 +298,10 @@
           <li><a href="#rows-in-dataset" id="markdown-toc-rows-in-dataset">Rows in Dataset</a></li>
         </ul>
       </li>
+      <li><a href="#other-settings" id="markdown-toc-other-settings">Other settings</a>        <ul>
+          <li><a href="#allow-screen-to-go-off" id="markdown-toc-allow-screen-to-go-off">Allow screen to go off</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li><a href="#sql-editor" id="markdown-toc-sql-editor">SQL Editor</a>    <ul>
@@ -321,7 +325,13 @@
   <li><a href="#db-browser-tab" id="markdown-toc-db-browser-tab">DB Browser tab</a>    <ul>
       <li><a href="#db-objects-browser-1" id="markdown-toc-db-objects-browser-1">DB Objects browser</a></li>
       <li><a href="#data-grid" id="markdown-toc-data-grid">Data Grid</a></li>
-      <li><a href="#edit-mode" id="markdown-toc-edit-mode">Edit Mode</a></li>
+      <li><a href="#edit-mode" id="markdown-toc-edit-mode">Edit Mode</a>        <ul>
+          <li><a href="#drop-object" id="markdown-toc-drop-object">Drop object</a></li>
+          <li><a href="#insert-new-line-in-table" id="markdown-toc-insert-new-line-in-table">Insert new line in table</a></li>
+          <li><a href="#edit-row-data" id="markdown-toc-edit-row-data">Edit row data</a></li>
+          <li><a href="#delete-a-row-from-a-table" id="markdown-toc-delete-a-row-from-a-table">Delete a row from a table</a></li>
+        </ul>
+      </li>
       <li><a href="#actions-1" id="markdown-toc-actions-1">Actions</a>        <ul>
           <li><a href="#refresh-data" id="markdown-toc-refresh-data">Refresh data</a></li>
           <li><a href="#export-data" id="markdown-toc-export-data">Export data</a></li>
@@ -458,6 +468,12 @@ use in front matter via: `layout: page`
 
     <p>It’s the number of rows that are retrieved by the app by default. No effect if the <em>“Retrive full dataset”</em> setting is set to “ON”.</p>
 
+    <h3 id="other-settings">Other settings</h3>
+
+    <h4 id="allow-screen-to-go-off">Allow screen to go off</h4>
+
+    <p>If this setting is turned to <em>“OFF”</em> your device screen will never dim and turn off while you’re using the app. This will allow you to perform more easilly long running queries.</p>
+
     <h2 id="sql-editor">SQL Editor</h2>
 
     <h3 id="database-selector">Database selector</h3>
@@ -587,9 +603,31 @@ use in front matter via: `layout: page`
 
     <h3 id="edit-mode">Edit Mode</h3>
 
-    <p>Turning the <em>“Edit Mode”</em> ON will allow you to drop objects or to modify data from tables.</p>
+    <p>Turning the <em>“Edit Mode”</em> ON will allow you to drop objects, add new lines in tables or to modify data from tables.</p>
+
+    <h4 id="drop-object">Drop object</h4>
 
     <p>To drop a linked object, you just have to tap its line in the data view. A dialog will ask you confirmation before proceding.</p>
+
+    <h4 id="insert-new-line-in-table">Insert new line in table</h4>
+
+    <p>Select the name of the table in which you want to insert a new row and select the <em>Data</em> tab. The <em>”+”</em> will then activate. Tap it to insert a new row.</p>
+
+    <p><img src="http://localhost:4000/assets/img/docs/insert-new-row.png" alt="Insert new row" /></p>
+
+    <p>Enter the value you want for each field and then tap “Save” to save the row or “&lt; Back” to come back to the previous screen without saving.</p>
+
+    <p>The primary key fields, if any, will appear in red.</p>
+
+    <h4 id="edit-row-data">Edit row data</h4>
+
+    <p>To enter the edit mode, tap the line number of the row you want to edit. The app will ask you if you want to edit or delete the row. Select <em>“EDIT”</em> to proceed to the edit screen.</p>
+
+    <p><img src="http://localhost:4000/assets/img/docs/edit-row.png" alt="Edit row" /></p>
+
+    <p>You can then modify the fields you want to change and either <em>“Save”</em> or <em>”&lt; Back”</em>. Please note that the constraints existing on your table are not checked at input time but only when you will try to save the row. If the constraints are violated an error message will appear and no change will have been written to the database.</p>
+
+    <h4 id="delete-a-row-from-a-table">Delete a row from a table</h4>
 
     <p>To delete a line of data, you have to tap the line number on the left of the to get the confirmation dialog. If you tap a data cell, you will be taken to a detail view of the cell where you can change its value (only if <em>“Edit Mode”</em> is ON).</p>
 
@@ -757,6 +795,11 @@ use in front matter via: `layout: page`
 
 
 
+
+
+<script type='text/javascript'>
+	var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '1010lrXT']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
+</script>
 
 
 

@@ -118,6 +118,12 @@ If this setting is turned to "ON" the app will fetch all the rows of any query i
 
 It's the number of rows that are retrieved by the app by default. No effect if the *"Retrive full dataset"* setting is set to "ON".
 
+### Other settings
+
+#### Allow screen to go off
+
+If this setting is turned to *"OFF"* your device screen will never dim and turn off while you're using the app. This will allow you to perform more easilly long running queries.
+
 
 ## SQL Editor
 
@@ -250,9 +256,32 @@ The data grid has the following subtabs :
 
 ### Edit Mode
 
-Turning the *"Edit Mode"* ON will allow you to drop objects or to modify data from tables.
+Turning the *"Edit Mode"* ON will allow you to drop objects, add new lines in tables or to modify data from tables.
+
+#### Drop object
 
 To drop a linked object, you just have to tap its line in the data view. A dialog will ask you confirmation before proceding.
+
+#### Insert new line in table
+
+Select the name of the table in which you want to insert a new row and select the *Data* tab. The *"+"* will then activate. Tap it to insert a new row.
+
+<img src="{{ site.urlimg }}docs/insert-new-row.png" alt="Insert new row">
+
+Enter the value you want for each field and then tap "Save" to save the row or "< Back" to come back to the previous screen without saving.
+
+The primary key fields, if any, will appear in red.
+
+#### Edit row data
+
+To enter the edit mode, tap the line number of the row you want to edit. The app will ask you if you want to edit or delete the row. Select *"EDIT"* to proceed to the edit screen.
+
+<img src="{{ site.urlimg }}docs/edit-row.png" alt="Edit row">
+
+You can then modify the fields you want to change and either *"Save"* or *"< Back"*. Please note that the constraints existing on your table are not checked at input time but only when you will try to save the row. If the constraints are violated an error message will appear and no change will have been written to the database.
+
+
+#### Delete a row from a table
 
 To delete a line of data, you have to tap the line number on the left of the to get the confirmation dialog. If you tap a data cell, you will be taken to a detail view of the cell where you can change its value (only if *"Edit Mode"* is ON).
 

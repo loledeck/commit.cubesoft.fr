@@ -19,6 +19,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_includes/_footer_scripts.html",
+			"settings":
+			{
+				"buffer_size": 2141,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/pages-root-folder/index.md",
+			"settings":
+			{
+				"buffer_size": 4042,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -52,7 +70,10 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/laurent/Repositories/commit.cubesoft.fr"
+		"/Users/laurent/Repositories/commit.cubesoft.fr",
+		"/Users/laurent/Repositories/commit.cubesoft.fr/_includes",
+		"/Users/laurent/Repositories/commit.cubesoft.fr/pages",
+		"/Users/laurent/Repositories/commit.cubesoft.fr/pages/pages-root-folder"
 	],
 	"file_history":
 	[
@@ -82,7 +103,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -100,6 +121,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">",
 			"status",
 			"logger",
 			"deltaToken",
@@ -164,8 +186,66 @@
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_includes/_footer_scripts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pages/pages-root-folder/index.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1616,
+								1616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 305.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -245,7 +325,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
