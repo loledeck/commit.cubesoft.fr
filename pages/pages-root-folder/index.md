@@ -98,6 +98,7 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 		<i class="fa fa-lock fa-li fa-4x" aria-hidden="true" style="color:red"></i>
 		<ul class="square">
 			<li class="feature">Connect to your databases directly or through a SSH tunnel</li>
+			<li class="feature">Secure your connections with SSL</li>
 			<li class="feature">Protect access to the app with TouchID</li>
 		</ul>
 		<hr>

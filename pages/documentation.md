@@ -58,6 +58,30 @@ Then just tap the *"Connect"* button.
 All other settings and interactions are the same as in a direct connection scenario.
 
 
+### Securing connection with SSL
+
+- Flip the *Use SSL* switch to ask Commit to secure your connection with SSL
+
+If you need to provide keys and certificates for your server, tap the key icon <img src="{{ site.urlimg }}docs/keyset-manager.png" alt="KeySets manager"> in the top left corner to invoke the KeySets manager.
+
+<img class="t10 b20" src="{{ site.urlimg }}docs/keysets-manager-main.png" alt="KeySets manager UI">
+
+Tap the "+" icon to create a new KeySet or swipe to the left an existing one to delete it.
+
+If you're logged into iCloud, the KeySets created will be synced between all your connected devices.
+
+<img class="t10 b20" src="{{ site.urlimg }}docs/create-new-keyset.png" alt="Create new KeySet">
+
+- Enter a unique name for your new KeySet in the *Key Set Name* field
+- *Client key* : if needed for your configuration, pick a client key PEM file with the iOS document picker by tapping the *Client key* line
+- *Client CERT* : if needed for your configuration, pick a client certificate PEM file with the iOS document picker by tapping the *Client CERT* line
+- *CA CERT* : if needed for your configuration, pick a CA certificate PEM file with the iOS document picker by tapping the *CA CERT* line
+
+<img class="t10 b20" src="{{ site.urlimg }}docs/ssl-keyset-field.png" alt="Using a KeySet">
+
+You then just have to select your KeySet in the *SSL Key Set* field of the connection form.
+
+
 ### Saved connections
 
 Typing connection information on a handled device is tiresome. To ensure that you do it the least possible amount of time, we included a *Saved Connections* feature.

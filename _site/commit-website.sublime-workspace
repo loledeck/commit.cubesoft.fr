@@ -20,6 +20,15 @@
 	"buffers":
 	[
 		{
+			"file": "pages/documentation.md",
+			"settings":
+			{
+				"buffer_size": 14450,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "_includes/_footer_scripts.html",
 			"settings":
 			{
@@ -32,7 +41,7 @@
 			"file": "pages/pages-root-folder/index.md",
 			"settings":
 			{
-				"buffer_size": 4042,
+				"buffer_size": 4203,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -77,6 +86,7 @@
 	],
 	"file_history":
 	[
+		"/Users/laurent/Library/Mobile Documents/com~apple~CloudDocs/Commit/test.pem",
 		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/CSLibraryCollectionViewController.m",
 		"/Users/laurent/Repositories/librairie/objective-c-2/librairie/librairie/librairie/UIViewController+LibraryView.m",
 		"/Users/laurent/Dropbox/Users/laurent/Documents/Immobilier/Achat 2016/Contrat de prêt familial.txt",
@@ -181,8 +191,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "pages/documentation.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12295,
+								12295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -190,7 +229,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 0,
+					"buffer": 1,
 					"file": "_includes/_footer_scripts.html",
 					"semi_transient": false,
 					"settings":
@@ -208,30 +247,32 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "pages/pages-root-folder/index.md",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4042,
+						"buffer_size": 4203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1616,
-								1616
+								3887,
+								3887
 							]
 						],
 						"settings":
@@ -240,10 +281,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 305.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

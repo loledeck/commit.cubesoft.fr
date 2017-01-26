@@ -279,6 +279,7 @@
   <li><a href="#connect-to-your-databases" id="markdown-toc-connect-to-your-databases">Connect to your databases</a>    <ul>
       <li><a href="#mysql-direct-connection" id="markdown-toc-mysql-direct-connection">MySQL Direct connection</a></li>
       <li><a href="#mysql-connection-through-a-ssh-tunnel" id="markdown-toc-mysql-connection-through-a-ssh-tunnel">MySQL Connection through a SSH tunnel</a></li>
+      <li><a href="#securing-connection-with-ssl" id="markdown-toc-securing-connection-with-ssl">Securing connection with SSL</a></li>
       <li><a href="#saved-connections" id="markdown-toc-saved-connections">Saved connections</a>        <ul>
           <li><a href="#creating-a-new-saved-connection" id="markdown-toc-creating-a-new-saved-connection">Creating a new saved connection</a></li>
           <li><a href="#deleting-an-existing-saved-connection" id="markdown-toc-deleting-an-existing-saved-connection">Deleting an existing saved connection</a></li>
@@ -402,6 +403,33 @@ use in front matter via: `layout: page`
     </ul>
 
     <p>All other settings and interactions are the same as in a direct connection scenario.</p>
+
+    <h3 id="securing-connection-with-ssl">Securing connection with SSL</h3>
+
+    <ul>
+      <li>Flip the <em>Use SSL</em> switch to ask Commit to secure your connection with SSL</li>
+    </ul>
+
+    <p>If you need to provide keys and certificates for your server, tap the key icon <img src="http://localhost:4000/assets/img/docs/keyset-manager.png" alt="KeySets manager" /> in the top left corner to invoke the KeySets manager.</p>
+
+    <p><img class="t10 b20" src="http://localhost:4000/assets/img/docs/keysets-manager-main.png" alt="KeySets manager UI" /></p>
+
+    <p>Tap the “+” icon to create a new KeySet or swipe to the left an existing one to delete it.</p>
+
+    <p>If you’re logged into iCloud, the KeySets created will be synced between all your connected devices.</p>
+
+    <p><img class="t10 b20" src="http://localhost:4000/assets/img/docs/create-new-keyset.png" alt="Create new KeySet" /></p>
+
+    <ul>
+      <li>Enter a unique name for your new KeySet in the <em>Key Set Name</em> field</li>
+      <li><em>Client key</em> : if needed for your configuration, pick a client key PEM file with the iOS document picker by tapping the <em>Client key</em> line</li>
+      <li><em>Client CERT</em> : if needed for your configuration, pick a client certificate PEM file with the iOS document picker by tapping the <em>Client CERT</em> line</li>
+      <li><em>CA CERT</em> : if needed for your configuration, pick a CA certificate PEM file with the iOS document picker by tapping the <em>CA CERT</em> line</li>
+    </ul>
+
+    <p><img class="t10 b20" src="http://localhost:4000/assets/img/docs/ssl-keyset-field.png" alt="Using a KeySet" /></p>
+
+    <p>You then just have to select your KeySet in the <em>SSL Key Set</em> field of the connection form.</p>
 
     <h3 id="saved-connections">Saved connections</h3>
 
