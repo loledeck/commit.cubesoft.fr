@@ -39,11 +39,11 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 
 
 <div class="carousel">
-  <div><img src="{{ site.urlimg }}screenshots/iPad - screenshot 1.png" alt="slide 1" /></div>
-  <div><img src="{{ site.urlimg }}screenshots/iPad - screenshot 2.png" alt="slide 2" /></div>
-  <div><img src="{{ site.urlimg }}screenshots/iPad - screenshot 3.png" alt="slide 3" /></div>
-  <div><img src="{{ site.urlimg }}screenshots/iPad - screenshot 4.png" alt="slide 4" /></div>
-  <div><img src="{{ site.urlimg }}screenshots/iPad - screenshot 5.png" alt="slide 5" /></div>
+  <div><img src="{{ site.urlimg }}screenshots/iPad - Screenshot 1.png" alt="slide 1" /></div>
+  <div><img src="{{ site.urlimg }}screenshots/iPad - Screenshot 2.png" alt="slide 2" /></div>
+  <div><img src="{{ site.urlimg }}screenshots/iPad - Screenshot 3.png" alt="slide 3" /></div>
+  <div><img src="{{ site.urlimg }}screenshots/iPad - Screenshot 4.png" alt="slide 4" /></div>
+  <div><img src="{{ site.urlimg }}screenshots/iPad - Screenshot 5.png" alt="slide 5" /></div>
   <div><img src="{{ site.urlimg }}screenshots/iPad - screenshot 6.png" alt="slide 6" /></div>
 </div>
 

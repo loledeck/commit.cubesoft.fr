@@ -23,7 +23,7 @@
 			"file": "pages/documentation.md",
 			"settings":
 			{
-				"buffer_size": 14450,
+				"buffer_size": 15849,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -41,7 +41,7 @@
 			"file": "pages/pages-root-folder/index.md",
 			"settings":
 			{
-				"buffer_size": 4203,
+				"buffer_size": 4264,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -200,15 +200,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14450,
+						"buffer_size": 15849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12295,
-								12295
+								3893,
+								3893
 							]
 						],
 						"settings":
@@ -216,7 +216,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 147.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -264,15 +264,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4203,
+						"buffer_size": 4264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3887,
-								3887
+								3408,
+								3408
 							]
 						],
 						"settings":
@@ -281,7 +281,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 320.0,
+						"translation.y": 335.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
