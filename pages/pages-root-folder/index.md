@@ -90,7 +90,7 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 			<li class="feature"><strong>Synchronize your connections</strong> between devices with iCloud</li>
 			<li class="feature">Import files from any iOS document provider extension (Dropbox, One Drive, Google Drive …)</li>
 			<li class="feature">Export your queries to any iOS document provider extension</li>
-			<li class="feature">Export the result sets of your queries to CSV</li>
+			<li class="feature">Export the results of your queries to either CSV or JSON</li>
 		</ul>
 		<hr>
 	</li>
@@ -98,8 +98,10 @@ Commit DB is designed from the ground up for the <strong>MySQL developers and DB
 		<i class="fa fa-lock fa-li fa-4x" aria-hidden="true" style="color:red"></i>
 		<ul class="square">
 			<li class="feature">Connect to your databases directly or through a SSH tunnel</li>
+			<li class="feature">SSH connection authenticated either by password or RSA key</li>
 			<li class="feature">Secure your connections with SSL</li>
 			<li class="feature">Protect access to the app with TouchID</li>
+			<li class="feature">Make your connection read-only to avoid mistakes</li>
 		</ul>
 		<hr>
 	</li>

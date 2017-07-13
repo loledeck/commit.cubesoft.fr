@@ -297,6 +297,7 @@
       <li><a href="#performance-settings" id="markdown-toc-performance-settings">Performance settings</a>        <ul>
           <li><a href="#retrieve-full-dataset" id="markdown-toc-retrieve-full-dataset">Retrieve full dataset</a></li>
           <li><a href="#rows-in-dataset" id="markdown-toc-rows-in-dataset">Rows in Dataset</a></li>
+          <li><a href="#include-all-rows-in-exports" id="markdown-toc-include-all-rows-in-exports">Include All Rows In Exports</a></li>
         </ul>
       </li>
       <li><a href="#other-settings" id="markdown-toc-other-settings">Other settings</a>        <ul>
@@ -386,6 +387,7 @@ use in front matter via: `layout: page`
       <li><em>Socket</em> should be filled only if your MySQL server is using a socket</li>
       <li><em>Favorite</em> allows you to have this connection appearing at the top of your saved connections. If the connection is not saved this setting does not do anything</li>
       <li><em>Color</em> allows you to choose a color to dinstinguish your connection. This color will appear on the icon in the connections list and in the top left of the screen in the <a href="#sql-editor">SQL Editor</a> and <a href="#db-browser-tab">DB Browser</a> panes</li>
+      <li><em>Read Only</em> allows you to create a read-only session where no object can be created, modified or dropped. It’s also not possible to update / delete / insert rows.</li>
     </ul>
 
     <p>If you want to save this connection you should then tap the <em>“Save connection”</em> button. This will put this connection in your saved connections list.</p>
@@ -399,8 +401,13 @@ use in front matter via: `layout: page`
       <li><em>Ssh Host</em> is the IP address or FQDN of the SSH server you’re trying to connect through</li>
       <li><em>Ssh User</em> is the username of the SSH server you’re trying to connect through</li>
       <li><em>Ssh Password</em> is the password of the SSH user</li>
+      <li><em>Ssh Key</em> is the RSA private key used to authenticate the SSH user. Please note that the password and the key fields must not be used at the same time. It’s either one or the other.</li>
       <li><em>Ssh Port</em> is the port of the SSH server</li>
     </ul>
+
+    <p>The SSH keys can be imported by tapping the key icon <img src="http://localhost:4000/assets/img/docs/keyset-manager.png" alt="SSH Keys manager" />. The procedure is the same as the one described for SSL certificates.</p>
+
+    <p><img class="t10 b20" src="http://localhost:4000/assets/img/docs/new_ssh_key.png" alt="New SSH key" /></p>
 
     <p>All other settings and interactions are the same as in a direct connection scenario.</p>
 
@@ -410,7 +417,7 @@ use in front matter via: `layout: page`
       <li>Flip the <em>Use SSL</em> switch to ask Commit to secure your connection with SSL</li>
     </ul>
 
-    <p>If you need to provide keys and certificates for your server, tap the key icon <img src="http://localhost:4000/assets/img/docs/keyset-manager.png" alt="KeySets manager" /> in the top left corner to invoke the KeySets manager.</p>
+    <p>If you need to provide keys and certificates for your server, tap the lockpad icon <img src="http://localhost:4000/assets/img/docs/lockpad-button.png" alt="KeySets manager" /> in the top left corner to invoke the KeySets manager.</p>
 
     <p><img class="t10 b20" src="http://localhost:4000/assets/img/docs/keysets-manager-main.png" alt="KeySets manager UI" /></p>
 
@@ -494,7 +501,11 @@ use in front matter via: `layout: page`
 
     <h4 id="rows-in-dataset">Rows in Dataset</h4>
 
-    <p>It’s the number of rows that are retrieved by the app by default. No effect if the <em>“Retrive full dataset”</em> setting is set to “ON”.</p>
+    <p>It’s the number of rows that are retrieved by the app by default. No effect if the <em>“Retreive full dataset”</em> setting is set to “ON”.</p>
+
+    <h4 id="include-all-rows-in-exports">Include All Rows In Exports</h4>
+
+    <p>When you’re exporting a dataset to another app, should all the rows be exported or only the ones currently visible in the app ?</p>
 
     <h3 id="other-settings">Other settings</h3>
 

@@ -41,6 +41,7 @@ use in front matter via: `layout: page`
 - *Socket* should be filled only if your MySQL server is using a socket
 - *Favorite* allows you to have this connection appearing at the top of your saved connections. If the connection is not saved this setting does not do anything
 - *Color* allows you to choose a color to dinstinguish your connection. This color will appear on the icon in the connections list and in the top left of the screen in the [SQL Editor](#sql-editor) and [DB Browser](#db-browser-tab) panes
+- *Read Only* allows you to create a read-only session where no object can be created, modified or dropped. It's also not possible to update / delete / insert rows.
 
 If you want to save this connection you should then tap the *"Save connection"* button. This will put this connection in your saved connections list.
 
@@ -53,7 +54,12 @@ Then just tap the *"Connect"* button.
 - *Ssh Host* is the IP address or FQDN of the SSH server you're trying to connect through
 - *Ssh User* is the username of the SSH server you're trying to connect through
 - *Ssh Password* is the password of the SSH user
+- *Ssh Key* is the RSA private key used to authenticate the SSH user. Please note that the password and the key fields must not be used at the same time. It's either one or the other.
 - *Ssh Port* is the port of the SSH server
+
+The SSH keys can be imported by tapping the key icon <img src="{{ site.urlimg }}docs/keyset-manager.png" alt="SSH Keys manager">. The procedure is the same as the one described for SSL certificates.
+
+<img class="t10 b20" src="{{ site.urlimg }}docs/new_ssh_key.png" alt="New SSH key">
 
 All other settings and interactions are the same as in a direct connection scenario.
 
@@ -62,7 +68,7 @@ All other settings and interactions are the same as in a direct connection scena
 
 - Flip the *Use SSL* switch to ask Commit to secure your connection with SSL
 
-If you need to provide keys and certificates for your server, tap the key icon <img src="{{ site.urlimg }}docs/keyset-manager.png" alt="KeySets manager"> in the top left corner to invoke the KeySets manager.
+If you need to provide keys and certificates for your server, tap the lockpad icon <img src="{{ site.urlimg }}docs/lockpad-button.png" alt="KeySets manager"> in the top left corner to invoke the KeySets manager.
 
 <img class="t10 b20" src="{{ site.urlimg }}docs/keysets-manager-main.png" alt="KeySets manager UI">
 
@@ -139,8 +145,11 @@ If this setting is turned to "ON" the app will fetch all the rows of any query i
 {% include alert warning='Turning this setting on may severely affect performances' %} 
 
 #### Rows in Dataset
+It's the number of rows that are retrieved by the app by default. No effect if the *"Retreive full dataset"* setting is set to "ON".
 
-It's the number of rows that are retrieved by the app by default. No effect if the *"Retrive full dataset"* setting is set to "ON".
+#### Include All Rows In Exports ####
+
+When you're exporting a dataset to another app, should all the rows be exported or only the ones currently visible in the app ?
 
 ### Other settings
 
